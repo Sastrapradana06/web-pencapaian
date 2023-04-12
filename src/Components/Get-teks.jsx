@@ -87,25 +87,6 @@ export default function GetTeks() {
                         </form>
                     </div>
                 )}
-                {/* {formTambah && (
-                    <div className="tambah-teks">
-                        <form onSubmit={tambahKata} className='form-tambahTeks'>
-                            <label htmlFor="teks">Tulis Impianmu</label>
-                            <textarea 
-                                    type="text" 
-                                    value={teks}
-                                    onChange={(e) => setTeks(e.target.value)}
-                            />
-                            <label htmlFor="teks">Tahun</label>
-                            <input 
-                                    type="text" 
-                                    value={tahun}
-                                    onChange={(e) => setTahun(e.target.value)}
-                            />
-                            <button type='submit'>Tambah</button>
-                        </form>
-                    </div>
-                )} */}
             </div>
         ))
     )
