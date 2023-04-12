@@ -1,0 +1,83 @@
+.teks-container {
+    /* border: 1px solid crimson; */
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.judul-teks {
+    margin: auto;
+    width: 90%;
+    border-bottom: 1px solid teal;
+    text-align: center;
+    padding-bottom: -10px;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.data-goals {
+    width: max-content;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    font-family: monospace;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+}
+
+.btn-reset {
+    width: max-content;
+    margin: auto;
+}
+
+.btn-reset button {
+    background-color: rgb(2, 46, 46);
+    border: 1px solid black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.btn-reset button:hover {
+    background-color: crimson;
+    transition: all .3s;
+}
+
+table {
+    /* border: black; */
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(2, 46, 46);
+    width: 95%;
+    text-align: center;
+    margin: 20px auto;
+    font-family: cursive;
+}
+
+table th {
+    font-family: monospace;
+    font-size: 1rem;
+    /* border-bottom: 1px solid black; */
+}
+
+table td {
+    font-family: cursive;
+    font-size: .8rem;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.Usaha {
+    color: crimson;
+}
+
+.Alhamdullilah {
+    color: rgb(23, 168, 23);
+}
+
+.aksi button {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
