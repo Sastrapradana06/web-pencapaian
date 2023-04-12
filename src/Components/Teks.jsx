@@ -19,13 +19,6 @@ export default function Teks() {
         })
     })
 
-    // useEffect(() => {
-    //     todos.filter((a) => {
-    //         const status = a.data.status === 'Alhamdullilah'
-    //         console.log(status);
-    //     })
-    // })
-
     function tercapai(item) {
         const updateDataStatus = {
             id: item.id,
